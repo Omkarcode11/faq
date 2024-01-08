@@ -1,11 +1,25 @@
-/* .main{
-    /* overflow: hidden; */
-    /* object-fit: contain; */
-    /* height: 100vh; */
-/* } */ 
-/* 
-.background-img{
-    object-fit: contain;
-    width: 50px;
-    
-} */
+.main {
+  overflow: hidden;
+  object-fit: contain;
+  /* height: 100vh;
+    width: 100%; */
+}
+
+.faqContainer {
+ display: flex;
+ justify-content: center;
+}
+
+.backgroundImg {
+  width: 100vw;
+  height: 10rem;
+}
+
+
+.background{
+    position: fixed;
+    top: -8rem;
+    left: 0px;
+    z-index: -1;
+  
+}

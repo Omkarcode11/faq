@@ -7,8 +7,10 @@ import FaqCard from './components/FaqCard/FaqCard'
 export default function Home() {
   return (
     <main className={styles.main}>
-    
-        <div className="faqContainer">
+         <div className={styles.backgroundImg}>
+          <Image src={DeskBack} className={styles.background} width={2000} height={'auto'} />
+         </div>
+        <div className={styles.faqContainer}>
         <FaqCard/>
         </div>
 

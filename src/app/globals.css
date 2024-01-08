@@ -7,11 +7,12 @@ body{
   color: #2b0f30;
   background-color: hsl(279, 100%, 97%);
   overflow-x: hidden;
+  position:relative
 }
 
 
-.backgroundImage{
 
+.backgroundImage{
   width: 100vw;
   object-fit: contain;
 }

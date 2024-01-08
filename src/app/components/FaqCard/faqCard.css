@@ -1,15 +1,16 @@
 .faq-header {
+  
   display: flex;
   flex-flow: row wrap;
   font-size: 3rem;
   font-weight: 800;
   align-items: center;
+  padding: 1rem 0rem;
 }
 
 .faq-innerContainer {
   border-radius: 1rem;
-  width: 30rem;
-  padding: 1rem;
+  padding: 2rem;
   background-color: white;
 }
 
@@ -17,10 +18,26 @@
   margin-right: 0.8rem;
 }
 
+.faq-title{
+  font-weight: bolder;
+}
+
+
 .all-faqs {
   padding-top: 1.5rem;
 }
 
 .faq-innerContainer {
-  margin: 1rem;
+  width: 30rem;
+  
+}
+
+@media screen and (max-width: 650px) {
+  .faq-innerContainer{
+    width: 60vw;
+  }
+}
+
+.faq-answer{
+  padding: 0.5rem 0rem;
 }
