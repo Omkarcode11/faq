@@ -1,18 +1,22 @@
 'use client'
 import React, { useState } from 'react'
+import Plus from '/public/icons/icon-plus.svg'
+import Minus from '/public/icons/icon-minus.svg'
+import './faq.css'
+import Image from 'next/image'
 
-function Faq() {
+function Faq({ans,ques}) {
     let [toggle,setToggle] = useState(true)
   return (
-    <div className='faq-container'>
+    <div className='faq1-container'>
         <div className='faq-question-btn'>
-            <div className='faq-question'>working ?</div>
+            <div className='faq-question'>{ques}</div>
             <div className='faq-btn'>
-                <button onClick={()=>setToggle(!toggle)}>{toggle?"+":"-"}</button>
+                <div onClick={()=>setToggle(!toggle)}>{toggle?<Image src={Plus}/>:<Image src={Minus}/>}</div>
             </div>
         </div>
         <div className='faq-answer' style={{display:toggle?'none':''}}>
-        this is my code is it working or not 
+       {ans}
         </div>
     </div>
   )

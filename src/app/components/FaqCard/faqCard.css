@@ -1,0 +1,26 @@
+.faq-header {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 3rem;
+  font-weight: 800;
+  align-items: center;
+}
+
+.faq-innerContainer {
+  border-radius: 1rem;
+  width: 30rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.faq-logo {
+  margin-right: 0.8rem;
+}
+
+.all-faqs {
+  padding-top: 1.5rem;
+}
+
+.faq-innerContainer {
+  margin: 1rem;
+}

@@ -1,0 +1,21 @@
+.faq1-container{
+    /* background-color: red; */
+    padding: 1rem 0rem;
+    border-top: 1px solid whitesmoke;
+    
+}
+
+
+.faq-question-btn{
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+
+.faq-innerContainer{
+    position: fixed;
+    top:25%;
+    left: 30%;
+
+}

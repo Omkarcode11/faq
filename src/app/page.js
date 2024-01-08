@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
     
-        <div className="faq-container">
+        <div className="faqContainer">
         <FaqCard/>
         </div>
 
