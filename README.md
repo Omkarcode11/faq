@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -14,23 +12,21 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# FAQ App
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Overview
+Welcome to our FAQ app – the go-to place for all your questions! Whether you're a user seeking information, our app is designed to make the process seamless.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Key Features
+- **Dynamic FAQs:** Add, edit, and remove FAQs effortlessly. Your changes won't disrupt the user experience.
+- **User-friendly Interface:** A clean and intuitive interface ensures a smooth navigation experience for both admins and users.
+- **Responsive Design:** Access FAQs on any device – desktop, tablet, or mobile.
 
-## Learn More
+## How It Works
+1. **Add FAQs:** Simply add new FAQs through the src\utils\faqs.js. The app dynamically updates to include your new information without any disruptions.
+2. **Edit FAQs:** Need to make changes? No problem! Edit FAQs on the fly without worrying about affecting ongoing user interactions.
+3. **Remove FAQs:** Keep your information up-to-date by removing outdated FAQs. Users won't experience any interruptions.
 
-To learn more about Next.js, take a look at the following resources:
+## Get Started
+Ready to dive in? Start exploring and managing your FAQs today! Have a question or feedback? Reach out to our support team for assistance.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
